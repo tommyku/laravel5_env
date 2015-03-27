@@ -2,6 +2,11 @@
 
 An artisan command for managing multiple `.env` of your Laravel 5 app.
 
+# Installation
+
+1. Copy `EnvCommand.php` to `app/Console/Commands/` of your Laravel 5 app.
+2. Register the command in `app/Console/Kernel.php` (or copy the one from this repo)
+
 # Usage
 
 Save the current `.env` into `.$APP_ENV.env`.
